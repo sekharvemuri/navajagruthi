@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/bg1.jpg");
+    background-repeat: repeat;
+    background-size: 3px;
+    /*background-size: cover;
+    background-position: center center;*/
+    min-height: 100%;
+}
+
+a, a:hover, a:active{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    background-color: white;
+    min-height: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.header{
+    background-color: white;
+    height: 20%;
+}
+
+.logo-english{
+    background-image: url("../images/logo-english.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+}
+
+.logo-telugu{
+    background-image: url("../images/logo-telugu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: #122b40;
+    height: 45px;
+}
+
+.nav-bar-item{
+    display: inline;
+    padding: 10px 0px;
+}
+
+.nav-bar-item a{
+    color: white;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.main-content{
+    min-height: 70%;
+}
+
+.home-content{
+    min-height: 650px;
+}
+
+.logo-text{
+    padding: 25px;
+}
+
+.name-text{
+    color: #ac2925;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navajagruthi{
+    font-size: 5em;
+    color: #a94442;
+}
+
+.scrolling-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-photos{
+    padding: 20px;
+}
+
+.gallery-image{
+    width: 25%;
+    height: 250px;
+    min-width: 300px;
+    float: left;
+    margin: 15px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.editors-profile{
+    padding: 30px;
+}
+
+.editors-profile img{
+    margin: 40px;
+}
+
+.editors-profile p{
+    text-align: justify;
+    font-size: 16px;
+    color: #222222;
+}
+
+.site_title{
+    background-image: url('../images/nava.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+}
+
+.book-image{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 650px;
+    margin: 25px 10px 10px 10px;
+    width: 48%;
+    background-position: center center;
+}
+
+.footer{
+    background-color: #122b40;
+    color: white;
+    min-height: 75px;
+    padding: 20px;
+}
+
+.coming-soon{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-info .name{
+    font-weight: bold;
+}
+
+.contact-info div{
+    margin: 5px;
+}
+
+.contact div{
+    display: inline;
+}
